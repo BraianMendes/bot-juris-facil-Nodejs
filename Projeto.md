@@ -1,5 +1,6 @@
 ## [Judiciário Exponencial](https://hackajudiciarioexponencial.com.br/) 
-####  Desafio 1| [Shawee](https://shawee.io/pt/) 
+### [Shawee](https://shawee.io/pt/) 
+####  Desafio 1 | Time 10
 
 
 
@@ -39,7 +40,7 @@ Será utilizado para informar o usuário sobre a utilização integrada ao Whats
 
 
 
-![](https://i.imgur.com/NRixgC5.png)
+![]()
 
 
 
