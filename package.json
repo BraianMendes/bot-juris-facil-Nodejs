@@ -12,6 +12,7 @@
     "dotenv": "8.0.0",
     "express": "^4.16.3",
     "googleapis": "^42.0.0",
+    "nodemon": "^2.0.4",
     "twilio": "^4.6.0"
   },
   "devDependencies": {

@@ -1,6 +1,9 @@
 import express from 'express';
 import cors from 'cors';
-import v1Routes from './routes';
+import { google } from 'googleapis';
+import dotenv from 'dotenv';
+import twilio from 'twilio';
+dotenv.config();
 
 const app = express();
 
@@ -14,23 +17,37 @@ app.use(
   })
 );
 
-app.use(express.json());
-app.use(v1Routes);
+const accountSid = process.env.TWILIO_ACCOUNT_SID;
+const TwilloAuthToken =  process.env.TWILIO_AUTH_TOKEN;
+const googleApiKey = process.env.GOOGLE_API_KEY;
+const cx = process.env.SEARCH_ENGINE_ID;
+  
+twilio(accountSid, TwilloAuthToken);
+const { MessagingResponse } = twilio.twiml;
+const customsearch = google.customsearch('v1');
 
-// catch 404 and forward to error handler
-app.use((req, res, next) => {
-  const err = new Error('Not Found');
-  err.status = 404;
-  next(err);
-});
 
-app.use((err, req, res, next) => {
-  res.status(err.status || 500).json({
-    errors: {
-      message: err.message
-    }
-  });
-  console.log(req);
+app.post('/api/v1/', async (req, res) => {
+  const twiml = new MessagingResponse();
+  const q = req.body.Body;
+  const options = { cx, q, auth: googleApiKey };
+
+  try {
+    const result = await customsearch.cse.list(options);
+    const firstResult = result.data.items[0];
+    const searchData = firstResult.snippet;
+    const link = firstResult.link;
+
+    twiml.message(`${searchData} ${link}`);
+
+    res.set('Content-Type', 'text/xml');
+
+    
+    // console.log(req.body);
+    return res.status(200).send(twiml.toString());
+  } catch (error) {
+    return next(error);
+  }
 });
 
 app.listen(PORT, () => console.log(`App Listening on port ${PORT}`));
