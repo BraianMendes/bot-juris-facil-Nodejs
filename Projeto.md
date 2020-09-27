@@ -1,6 +1,6 @@
 ## [Judiciário Exponencial](https://hackajudiciarioexponencial.com.br/) 
 ### [Shawee](https://shawee.io/pt/) 
-####  Desafio 1| Time 10 | Justiça Fácil
+####  Desafio 1 | Time 10 | Justiça Fácil
 
 
 
@@ -29,7 +29,7 @@ O [**Justiça Fácil**](https://mega-hack-women.herokuapp.com/) foi criado com o
 ### Testemunhos
 
 
-> **“Agora estou  conseguindo acompanhar bem melhor os processo que já abri! ”**<br>
+> **“Agora estou conseguindo acompanhar de forma bem melhor os processos que já abri! ”**<br>
 > — Maria | Profissional autônoma
 
 
