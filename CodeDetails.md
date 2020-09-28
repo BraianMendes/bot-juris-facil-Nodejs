@@ -1,4 +1,4 @@
-## Juris Facil WhatsApp Chatbot
+# Juris Facil WhatsApp Chatbot
 
 Whatsapp chatbot usando Node JS, Dialogflow and Twilio.
 Dentro deste manual iremos explicar toda a tecnologia por trás, assim como também recriar a aplicação localmente e mais detalhes interessantes.
