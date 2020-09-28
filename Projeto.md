@@ -22,6 +22,7 @@ O [**Justiça Fácil**](https://mega-hack-women.herokuapp.com/) foi criado com o
 
 #### Recursos usados
 - [Figma](https://www.figma.com/)
+- [Dialogflow](https://dialogflow.cloud.google.com/)
 - [Heroku](https://www.heroku.com/)
   
   
@@ -30,13 +31,13 @@ O [**Justiça Fácil**](https://mega-hack-women.herokuapp.com/) foi criado com o
 
 
 > **“Agora estou conseguindo acompanhar de forma bem melhor os processos que já abri! ”**<br>
-> — Maria | Profissional autônoma
+> — Maria | Cliente
 
 
 
 ### [Protótipo](https://www.figma.com/proto/45HdMe1IqbplLdqSwmxtvk/judiciario-exponencial?node-id=0%3A1&scaling=scale-down)
 
-Será utilizado para informar o usuário sobre a utilização integrada ao Whatsapp para facilitar o acesso as informações.
+Será utilizado para informar o usuário sobre a utilização integrada ao Whatsapp para facilitar o acesso as informações de processo jurídicos.
 
 
 
@@ -69,7 +70,7 @@ Será utilizado para informar o usuário sobre a utilização integrada ao Whats
   <tr>
     <td align="center"><a href="https://mrncstt.github.io/posts/"><img src="https://i.imgur.com/UMWYzzG.jpg" width="100px;" alt=""/><br /><sub><b>Mariana Costa</b></sub></a><br /><a href="marianacosta.data@gmail.com" title="Site">💻</a> <a href="https://mrncstt.github.io/" title="Email">📧</a> </td>
     <td align="center"><a href="https://www.linkedin.com/in/ana-daniele-feula-842219140/"><img src="https://i.imgur.com/Ecu6m0w.jpg" width="100px;" alt=""/><br /><sub><b> Ana Feula</b></sub></a><br /><a href="ananidesigner@gmail.com" title="Site">💻</a> <a href="https://www.linkedin.com/in/ana-daniele-feula-842219140/" title="Email">📧</a> </td>
-    <td align="center"><a href="https://www.linkedin.com/in/gustavo-orair-1b514818/detail/photo/"><img src="https://i.imgur.com/dOUPICQ.jpg" width="100px;" alt=""/><br /><sub><b> Gustavo Orair</b></sub></a><br /><a href="https://www.linkedin.com/in/gustavo-orair-1b514818/" title="Site">💻</a> <a href="https://www.linkedin.com/in/gustavo-orair-1b514818/" title="Email">📧</a> </td>
+    <td align="center"><a href="https://www.linkedin.com/in/gustavo-orair-1b514818/detail/photo/"><img src="https://i.imgur.com/ss07sSu.jpg" width="100px;" alt=""/><br /><sub><b> Gustavo Orair</b></sub></a><br /><a href="https://www.linkedin.com/in/gustavo-orair-1b514818/" title="Site">💻</a> <a href="https://www.linkedin.com/in/gustavo-orair-1b514818/" title="Email">📧</a> </td>
      <td align="center"><a href="https://www.linkedin.com/in/braianmendes/"><img src="https://i.imgur.com/TeL3mWd.jpg" width="100px;" alt=""/><br /><sub><b> Braian Mendes</b></sub></a><br /><a href="https://github.com/BraianMendes" title="Site">💻</a> <a href="https://github.com/BraianMendes" title="Email">📧</a> </td>
       <td align="center"><a href="https://www.linkedin.com/in/wagner-mariano-msc-17a9bb56/"><img src="https://i.imgur.com/Nz1O55U.jpg" width="100px;" alt=""/><br /><sub><b> Wagner Mariano</b></sub></a><br /><a href="https://www.linkedin.com/in/wagner-mariano-msc-17a9bb56/" title="Site">💻</a> <a href="https://www.linkedin.com/in/wagner-mariano-msc-17a9bb56/" title="Email">📧</a> 
 </table>
