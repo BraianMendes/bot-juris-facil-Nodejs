@@ -27,7 +27,7 @@ Nós criamos o Justiça Fácil, nosso principal foco é deixar os processos jur�
 
 #### Recursos usados
 ##### Prototipação
-- [Figma](https://www.figma.com/)
+- [Figma](https://www.figma.com/proto/45HdMe1IqbplLdqSwmxtvk/judiciario-exponencial?node-id=0%3A3&scaling=scale-down)
 ##### Desenvolvimento
 - [Node.js](https://nodejs.org/)
 - [Twilio](https://www.twilio.com/)
