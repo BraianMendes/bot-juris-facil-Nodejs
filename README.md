@@ -27,7 +27,7 @@ Nós criamos o Justiça Fácil, nosso principal foco é deixar os processos jur�
 
 #### Recursos usados
 ##### Prototipação
-- [Figma](https://www.figma.com/proto/45HdMe1IqbplLdqSwmxtvk/judiciario-exponencial?node-id=0%3A3&scaling=scale-down)
+- [Figma](https://www.figma.com/)
 ##### Desenvolvimento
 - [Node.js](https://nodejs.org/)
 - [Twilio](https://www.twilio.com/)
@@ -52,7 +52,11 @@ Será utilizado para informar o usuário sobre a utilização integrada ao Whats
 
 ![](https://i.imgur.com/59SwB2W.jpg)
 
+### Para Usar a Solução
 
+Apenas envie a mensagem ``` join edge-bent ``` para o bot Juris Fácil no número ``` +1 (415) 523-8886 ```. Envie de qualquer celular, ou até mesmo do Whatsapp Web, e ele dará início ao serviço.
+
+Em seguida já pode enviar a mensagem que preferir e já estará usando nossa solução,  damos a sugestão de começar com um Olá. :)
 
 
 ### Videos
