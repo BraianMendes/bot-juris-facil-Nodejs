@@ -68,7 +68,7 @@ Basta acessar nosso arquivo [CodeDetails.md](https://github.com/BraianMendes/bot
 <table>
   <tr>
     <td align="center"><a href="https://youtu.be/sX6kNxy65wQ"><img src="https://i.imgur.com/lYsrzO5.jpg" width="280px;" alt=""/><br /><sub><b>Pitch</b></sub></a><br /><a href="https://youtu.be/sX6kNxy65wQ" title="YouTube">🎥</a></td>
-    <td align="center"><a href="https://youtu.be/U2fUmmdjDMw"><img src="https://i.imgur.com/E1aiADl.jpg" width="280px;" alt=""/><br /><sub><b>Demo</b></sub></a><br /><a href="https://www.youtube.com" title="YouTube">🎥</a></td>
+    <td align="center"><a href="https://youtu.be/t_9zKLEQEOc"><img src="https://i.imgur.com/E1aiADl.jpg" width="280px;" alt=""/><br /><sub><b>Demo</b></sub></a><br /><a href="https://youtu.be/t_9zKLEQEOc" title="YouTube">🎥</a></td>
 </table>
 
 
