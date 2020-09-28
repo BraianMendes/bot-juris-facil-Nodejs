@@ -56,7 +56,7 @@ Será utilizado para informar o usuário sobre a utilização integrada ao Whats
 
 <table>
   <tr>
-    <td align="center"><a href="https://www.youtube.com/"><img src="https://i.imgur.com/lYsrzO5.jpg" width="280px;" alt=""/><br /><sub><b>Pitch</b></sub></a><br /><a href="https://www.youtube.com/" title="YouTube">🎥</a></td>
+    <td align="center"><a href="https://youtu.be/sX6kNxy65wQ"><img src="https://i.imgur.com/lYsrzO5.jpg" width="280px;" alt=""/><br /><sub><b>Pitch</b></sub></a><br /><a href="https://youtu.be/sX6kNxy65wQ" title="YouTube">🎥</a></td>
     <td align="center"><a href="https://youtu.be/U2fUmmdjDMw"><img src="https://i.imgur.com/E1aiADl.jpg" width="280px;" alt=""/><br /><sub><b>Demo</b></sub></a><br /><a href="https://www.youtube.com" title="YouTube">🎥</a></td>
 </table>
 
@@ -65,7 +65,7 @@ Será utilizado para informar o usuário sobre a utilização integrada ao Whats
 
 ####  ○  📲 [MVP](https://www.figma.com/proto/45HdMe1IqbplLdqSwmxtvk/judiciario-exponencial?node-id=0%3A3&scaling=scale-down)
 
-####  ○  📇 [Code](https://github.com/BraianMendes/bot-juris-facil-Nodejs/blob/master/README.md)
+####  ○  📇 [Code](https://github.com/BraianMendes/bot-juris-facil-Nodejs/)
 
 ####  ○  🖼️ [Apresentação](https://drive.google.com/)
 
