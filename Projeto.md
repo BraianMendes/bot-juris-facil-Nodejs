@@ -1,6 +1,8 @@
 ## [Judiciário Exponencial](https://hackajudiciarioexponencial.com.br/) 
 ### [Shawee](https://shawee.io/pt/) 
+
 ####  Desafio 1 | Time 10 | Justiça Fácil
+
 
 
 
