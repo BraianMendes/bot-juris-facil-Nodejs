@@ -1,53 +1,14 @@
-# wa-chatbot
+## Juris Facil WhatsApp Chatbot
 
-Creating a Whatsapp chatbot using Node JS, Dialogflow and Twilio.
+Whatsapp chatbot usando Node JS, Dialogflow and Twilio.
+Dentro deste manual iremos explicar toda a tecnologia por trás, assim como também recriar a aplicação localmente e mais detalhes interessantes.
 
-# Prerequisites
+### Tecnologias por Trás do Projeto
 
-1.  [Twilio](www.twilio.com/referral/KqKLx8)  account
-2. Dialogflow account
-3. Node Js
-4. Javascript knowledge
+#### [Node.js](https://nodejs.org/)
+Node.js é um ambiente de execução Javascript server-side. Tra-se de um software open-source, cross-platform, e de um runtime de JavaScript que execute código de JavaScript a nível backend e frontend.
 
-# Getting Started
-
-Install the latest stable version of Node Js if you don't have it. 
-
-# Twilio
-Visit  [twilio](www.twilio.com/referral/KqKLx8) and sign up for a new account if you do not have one. You'll be given some credits to get you started. After they are over you'll need to pay to get more so use them wisely.
-
-On your dashboard take note of your `Account SID` and `Auth Token`.
-Head over to [https://www.twilio.com/console/sms/whatsapp/learn](https://www.twilio.com/console/sms/whatsapp/learn) and follow the instructions to connect your Whatsapp account to your sandbox. This is necessary for the sandbox environment. This is all you need for now, we'll come back to this later.
-
-# Dialogflow
-According to their  [website](https://cloud.google.com/dialogflow/) , 
-> Dialogflow is an end-to-end, build-once deploy-everywhere development suite for creating conversational interfaces for websites, mobile applications, popular messaging platforms, and IoT devices. You can use it to build interfaces (such as chatbots and conversational IVR) that enable natural and rich interactions between your users and your business. Dialogflow Enterprise Edition users have access to Google Cloud Support and a service level agreement (SLA) for production deployments.
-
-We will be using Dialogflow to power our chatbot. Head over to  [Dialogflow Console](https://dialogflow.cloud.google.com/) and create a new agent. I will not dive into the specifics of creating and training agents, handling entities, intents and more. That is beyond the scope of this tutorial. You can find multiple resources on this online. 
-
-After creating your agent, click on the Small Talk tab on the left and enable it. This allows our bot to respond to small talk and common phrases. You can customize the responses on the same tab. You can do this for a more personalized experience. On the right side of your Dialogflow console, there's an input field where you can test out your bot.  
-
-When you've tested out your bot and are satisfied you can now follow the steps below to set up authentication for accessing your chatbot via an API. 
-
-1. On your Dialogflow console, open settings by clicking on the gear icon next to our project name.
-2. Take note of the Project Id that is on the General tab of the settings page under Google Project section. We'll be using that later.
-3. Follow the link next to Service Account.
-
-![Screenshot from 2020-01-03 10-54-09.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1578038286605/d-43Cv2JA.png)
-- Create a new service account, give it an appropriate name.
-
-![Screenshot from 2020-01-03 11-00-06.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1578038475110/MHbbdz5dm.png)
-- Set Dialogflow role to Dialogflow API Admin
-
-![Screenshot from 2020-01-03 11-00-26.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1578038514884/R1t7VCjYK.png)
-- Create a new key and choose JSON. 
-
-![Screenshot from 2020-01-03 11-00-52.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1578038576712/FStn7eegM.png)
-- Rename the downloaded JSON file to `credentials.json`. This is just so we can reference it easily. We will come back to this file later.
-
-
-
-# Backend (Node JS)
+#### Como funciona nosso Backend em Node.js
 
 I will be using typescript in this project. You shouldn't feel intimidated even if you haven't used it before. You can check out  [this guide](https://levelup.gitconnected.com/setup-express-with-typescript-in-3-easy-steps-484772062e01)  on how to get started with typescript and express.
 
@@ -443,12 +404,78 @@ You can run `npm install` again in case I missed any dependencies. We also need 
 }
 ```
 
-You can now run `npm run dev:watch` and see if your project runs successfully. Next, we need to expose our local server.  [Ngrok](https://ngrok.com/)  is one of the best open-source solutions but you can use whatever you prefer. 
 
-Copy your exposed server URL and open  [Twilio Whatsapp Sandbox](https://www.twilio.com/console/sms/whatsapp/sandbox). Replace the URL in **WHEN A MESSAGE COMES IN** with your exposed URL. Don't forget to add the path to our bot controller. i.e. `/api/bot`
+#### Dialogflow
+De acordo com o seu  [website](https://cloud.google.com/dialogflow/) traduzido, 
+> O Dialogflow é um pacote de desenvolvimento completo, desenvolvido uma vez e implantado em todos os lugares, para a criação de interfaces de conversação para sites, aplicativos móveis, plataformas de mensagens populares e dispositivos IoT. Você pode usá-lo para construir interfaces (como chatbots e IVR de conversação) que permitem interações naturais e ricas entre seus usuários e sua empresa. Os usuários do Dialogflow Enterprise Edition têm acesso ao suporte do Google Cloud e a um contrato de nível de serviço (SLA) para implantações de produção.
+
+Nós usamos o Dialogflow para dar poder ao processamento de IA para o Chatbot. Nele, interpreta as intenções de ação do usuário de acordo com a mensagem enviada no Whatsapp, e consegui entender diversas variações de formas de comunicação, e então enviar a resposta adequada para a necessidade do usuário.
+
+
+### Como Rodar Localmente
+
+#### Prerequisitos
+
+1. [Twilio](www.twilio.com/referral/KqKLx8), uma conta de usuário
+2. [Node Js](https://nodejs.org/) instalado na versão mais recente 
+3. NPM ou Yarn, ou um outro gerenciador de pacotes de sua preferência
+4. Um pouco de conhecimento em Javascript
+
+#### Iniciando
+
+Instale a versão estável mais recente do Node Js, caso ainda não tenha. Junto com ele deverá ser instalado o NPM.
+
+E execute o comando para instalar as dependências do projeto:
+
+```
+npm install
+```
+ou
+```
+yarn install
+```
+
+
+#### Twilio
+Visite  [twilio](www.twilio.com/referral/KqKLx8) e inscreva-se para uma nova conta, se ainda não tiver uma. Você receberá alguns créditos para começar. Depois que eles terminarem, você precisará pagar para conseguir mais, então use-os com sabedoria.
+
+No dashboard, anote o seu `Account SID` e `Auth Token`.
+Vá para [https://www.twilio.com/console/sms/whatsapp/learn](https://www.twilio.com/console/sms/whatsapp/learn) 
+e siga as instruções para conectar sua conta do Whatsapp à sua sandbox. Isso é necessário para o ambiente de sandbox. Por enquanto, isso é tudo de que você precisa. 
+
+#### Dialogflow
+O Dialogflow já está configurado para uso neste projeto.
+Para acessar a nossa IA treinado usaremos o código de projeto de Dialogflow:
+
+```
+hackajuridico-ro9a
+```
+
+#### Configurando Variáveis
+
+Crie um arquivo .env, caso já não tenha esse arquivo na raiz do repositório do projeto, com as seguintes variáveis. E onde está TWILIO_ACCOUNT_SID= e TWILIO_ACCOUNT_SID= adicione valores, correspondetes, de acordo com o já anotado em sua conta Twilio.
+
+```
+TWILIO_ACCOUNT_SID=
+TWILIO_ACCOUNT_SID=
+DIALOGFLOW_PROJECT_ID=hackajuridico-ro9a
+```
+
+
+Agora você pode executar `npm run dev: watch` e ver seu projeto sendo executado com sucesso.
+
+
+Em seguida, precisamos expor nosso servidor local.  [Ngrok](https://ngrok.com/)  é uma das melhores soluções de código aberto, mas você pode usar o que preferir.
+Para este Chatbot Juris Facil o Ngrok já foi instalado no projeto e, em um novo terminal, execute o comando:
+
+```
+./ngrok http 3000
+```
+
+O servidor será exposto localmente. Copie o URL do servidor exposto e abra [Twilio Whatsapp Sandbox](https://www.twilio.com/console/sms/whatsapp/sandbox). RSubstitua o URL em **WHEN A MESSAGE COMES IN** pelo seu URL exposto. Não se esqueça de adicionar a rota no final dessa mesma url nesse mesmo campo de input no Twilio, ou seja, `/api/bot`
 
 ![Screenshot from 2020-01-03 11-42-28.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1578040961273/FQIcqbgcE.png)
-Save the new changes and you can now send a message to the Twilio Sandbox Number and you'll see the response. 
+Salve as novas alterações e agora você pode enviar uma mensagem para o número do sandbox do Twilio no seu whatsapp e você já verá a resposta.
 
 
 ![Screenshot_20200103-113203_WhatsApp.jpg](https://cdn.hashnode.com/res/hashnode/image/upload/v1578041040285/slhCjt7wV.jpeg)
