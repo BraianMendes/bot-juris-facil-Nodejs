@@ -20,7 +20,8 @@
 
 O [**Justiça Fácil**](https://api.whatsapp.com/send?phone=14155238886&text=join%20edge-bent) foi criado com o objetivo de desenvolver soluções que promovam como premissa o cidadão no centro, alinhado com a ODS 16 da ONU **“16.3 Promover o Estado de Direito, em nível nacional e internacional, e garantir a igualdade de acesso à justiça para todos”**.
 
-Nós criamos o Justiça Fácil, nosso principal foco é deixar os processos jurídicos acessíveis para todos, um chatbot escalável integrado ao [Whatsapp](https://web.whatsapp.com/%F0%9F%8C%90/pt-br), no caso as pessoas interessadas irão entrar em contato para saber sobre o andamento de seu processo, receberá  informações em que fase seu processo esta e uma previsão de dias para finalizar, assim o(a) cliente obterá informações e visibilidade de seu processo.
+
+Nós criamos o Justiça Fácil, nosso principal foco é deixar os processos jurídicos acessíveis para todos, um chatbot escalável integrado ao [Whatsapp](https://web.whatsapp.com/%F0%9F%8C%90/pt-br), no caso as pessoas interessadas irão entrar em contato para saber sobre o andamento de seu processo, receberá informações em que fase seu processo esta e uma previsão de dias para finalizar, assim o(a) cliente obterá informações e visibilidade de seu processo
 
 
 
