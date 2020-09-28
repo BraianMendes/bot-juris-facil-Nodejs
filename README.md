@@ -58,6 +58,10 @@ Apenas envie a mensagem ``` join edge-bent ``` para o bot Juris Fácil no númer
 
 Em seguida já pode enviar a mensagem que preferir e já estará usando nossa solução,  damos a sugestão de começar com um Olá. :)
 
+### Para Mais Informações de Código da Solução
+
+Basta acessar nosso arquivo [CodeDetails.md](https://github.com/BraianMendes/bot-juris-facil-Nodejs/blob/master/CodeDetails.md).
+
 
 ### Videos
 
