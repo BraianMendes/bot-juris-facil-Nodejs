@@ -23,9 +23,9 @@ O [**Justiça Fácil**](https://mega-hack-women.herokuapp.com/) foi criado com o
 
 
 #### Recursos usados
-### Prototipação
+##### Prototipação
 - [Figma](https://www.figma.com/)
-### Desenvolvimento
+##### Desenvolvimento
 - [Node.js](https://nodejs.org/)
 - [Twilio](https://www.twilio.com/)
 - [Dialogflow](https://dialogflow.cloud.google.com/)
